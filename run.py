@@ -33,7 +33,7 @@ y_pred = model.predict(X_valid_scaled)
 
 # Evaluate the model
 rmse = mean_squared_error(y_valid, y_pred, squared=False)
-print(f'Root Mean Squared Error on Validation Set: {rmse}')
+#print(f'Root Mean Squared Error on Validation Set: {rmse}')
 
 # Save the trained model for later use
 model.save_model('heart_rate_model.model')
