@@ -1,5 +1,7 @@
 # aicure_Pandas
-Team name: Pandas Group member's names and contact numbers:
+Team name: Pandas
+
+Group member's names and contact numbers:
 
 Aditi Soukar +919535688530
 
