@@ -14,13 +14,13 @@ Prakriti Tripathi +918197707806
 ***
 ## Steps to get the project working
 
-1. Dowmload all the files in this repository.
-+ You can follow the steps shown in aicure_Pandas.ipynb notebook.
-3. You can execute run.py along followed by the name of the test data file as:
+1. Download all the files in this repository.
++ You can follow the steps given below or run the aicure_Pandas.ipynb notebook.
+2. Execute run.py along followed by the name of the test data file as:
 
-python3 run.py sample_test_data.csv
+      python3 run.py sample_test_data.csv
 
-4. You can replace sample_test_data.csv with any test data csv file of your choice.
+3. Replace sample_test_data.csv with any test data csv file of your choice.
 
 + After a successful run a file named results.csv will be created. 
 6. Open this file to see the predictions for heart rate along with the corresponding uid.
