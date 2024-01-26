@@ -16,7 +16,7 @@ Prakriti Tripathi +918197707806
 
 1. Download all the files in this repository.
 + You can follow the steps given below or run the aicure_Pandas.ipynb notebook.
-2. Execute run.py along followed by the name of the test data file as:
+2. Execute the command run.py followed by the name of the test data file as:
 
       python3 run.py sample_test_data.csv
 
