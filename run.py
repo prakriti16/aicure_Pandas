@@ -65,7 +65,7 @@ test_data[numeric_columns] = scaler.fit_transform(test_data[numeric_columns])
 predictions = model.predict(test_data)
 
 # Create a DataFrame with 'uuid' and predicted heart rates
-result_df = pd.DataFrame({'uuid': uuid_column, 'Predicted_HR': predictions-10})
+result_df = pd.DataFrame({'uuid': uuid_column, 'Predicted_HR': predictions})
 
 # Save the predictions to results.csv
 result_df.to_csv('results.csv', index=False)
