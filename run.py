@@ -1,10 +1,12 @@
+
 # Import necessary libraries
 import sys
 import pandas as pd
+import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBRegressor
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Load the training data
 train_data = pd.read_csv('train_data.csv')
@@ -32,8 +34,10 @@ model.fit(X_train_scaled, y_train)
 y_pred = model.predict(X_valid_scaled)
 
 # Evaluate the model
-rmse = mean_squared_error(y_valid, y_pred, squared=False)
-#print(f'Root Mean Squared Error on Validation Set: {rmse}')
+rmse = np.sqrt(mean_squared_error(y_valid, y_pred))
+mae = mean_absolute_error(y_valid, y_pred)
+r2 = r2_score(y_valid, y_pred)
+#print(f"RMSE: {rmse:.2f}, MAE: {mae:.2f}, R2: {r2:.2f}")
 
 # Save the trained model for later use
 model.save_model('heart_rate_model.model')
