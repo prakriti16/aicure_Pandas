@@ -23,5 +23,5 @@ Prakriti Tripathi +918197707806
 3. Replace sample_test_data.csv with any test data csv file of your choice.
 
 + After a successful run a file named results.csv will be created. 
-6. Open this file to see the predictions for heart rate along with the corresponding uid.
+6. Open this file to see the predictions for heart rate along with the corresponding uuid.
 
