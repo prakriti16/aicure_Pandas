@@ -10,3 +10,6 @@ Anjali Katageri +918530802479
 Gudapareddy Naganandini +919949381802
 
 Prakriti Tripathi +918197707806
+
+Dowmload all the files in this repository.
+Open the jupyter n
